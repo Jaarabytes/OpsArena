@@ -24,7 +24,14 @@
 
 <main>
   {#if dogImage }
-    <img src={dogImage} class='mx-auto' alt="HTTP status dog!" />
+    <a href="/"><img src={dogImage} class='mx-auto' alt="HTTP status dog!" /></a>
+  {:else}
+    <p class='text-center my-5'>An error occured. Please go <a href="/">HOME</a></p>
+  {/if}
+
+</main>main>
+  {#if dogImage }
+    <a href="/"><img src={dogImage} class='mx-auto' alt="HTTP status dog!" /></a>
   {:else}
     <p class='text-center my-5'>An error occured. Please go <a href="/">HOME</a></p>
   {/if}
