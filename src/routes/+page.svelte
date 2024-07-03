@@ -5,6 +5,10 @@
   const builders = [{name: "Jaarabytes", link: "jaarabytes"}]
 </script>
 
+<svelte:head>
+  <title>OpsArena</title>
+</svelte:head>
+
 <div class='my-5 px-3 sm:px-[20%]'>
   <p class='text-3xl sm:text-[49px] font-extrabold'>Learn DevOps, the fun way! </p>
     <div class='my-5'>
