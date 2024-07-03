@@ -19,5 +19,7 @@
       <a href="https://github.com/Jaarabytes/OpsArena">https://github.com/Jaarabytes/OpsArena</a>
       <p class='my-3'>Issues: </p>
       <a href="https://github.com/Jaarabytes/OpsArena/issues/new">https://github.com/Jaarabytes/OpsArena/issues/new</a>
+      <p class='my-3'>To donate: </p>
+      <a href='/donate'>Click me!</a>
     </div>
 </div>
