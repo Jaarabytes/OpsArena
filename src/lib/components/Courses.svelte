@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div class='px-3 sm:px-[20%]'>
-  <h1 class='font-extrabold'>What we offer (for now): </h1>
+  <h1 class='font-extrabold my-5'>What we offer (for now): </h1>
   {#each courses as courses}
     <a href={`${courses.link}`} 
       ><div class='rounded-lg px-12 py-3 hover:bg-slate-200'>
@@ -23,7 +23,7 @@
       </div>
     </a>
   {/each}
-  <a class="px-3 my-5 sm:px-[20%]" href={courses[courseIndex].link}>
-    <button class='my-5 rounded-lg bg-amber-600 text-black px-6 text-3xl text-center py-4 hover:bg-amber-400 '>Start now (it's fun)</button>
+  <a class="px-3 my-5 sm:px-[20%] flex justify-center" href={courses[courseIndex].link}>
+    <button class='my-5 rounded-lg bg-amber-600 text-black px-6 text-3xl py-4 hover:bg-amber-400 '>Start now (it's fun)</button>
   </a>
 </div>
