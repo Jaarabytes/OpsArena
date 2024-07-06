@@ -1,5 +1,5 @@
 <script>
-  import Donate from '$lib/Donate.svelte'
+  import Donate from '$lib/components/Donate.svelte'
 </script>
 
 <Donate />
