@@ -1,6 +1,6 @@
 <script>
   // implement paystack
-  import "../app.css"
+  import "../../app.css"
   import { onMount } from "svelte";
   import { env } from '$env/dynamic/public' 
 
